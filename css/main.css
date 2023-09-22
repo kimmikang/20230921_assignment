@@ -1,0 +1,125 @@
+main {
+  width: 460px;
+}
+.main_sale {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px 0 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.main_sale__img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+.main_sale__text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 20px;
+}
+
+.main_sale__title {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.main_sale__price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main_chat_01 {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.main_chat_01__time {
+  margin: 0px 0px 0px 0px;
+  color: #999;
+}
+
+.main_chat_01__text {
+  max-width: 300px;
+  padding: 10px 10px 10px 20px;
+  margin: 15px 15px 0px 4px;
+  background-color: rgb(255, 137, 2);
+  border-radius: 24px 0px 24px 24px;
+  color: beige;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main_chat_02 {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  padding: 0px 10px 10px 20px;
+}
+
+.main_chat_02__profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 0px 0px 15px 0px;
+}
+
+.main_chat_02__text {
+  max-width: 300px;
+  padding: 10px 20px 10px 10px;
+  margin: 15px 4px 15px 10px;
+  background-color: #ccc;
+  border-radius: 0px 24px 24px 24px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main_chat_02__time {
+  margin: 0px 0px 15px 0px;
+  color: #999;
+}
+
+.main_alram {
+  width: 360px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px 20px 20px 16px;
+  border: 1px solid #ddd;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.main_alram__img img {
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+  background-color: #ccc;
+  border-radius: 30px;
+  margin-left: 4px;
+}
+
+.main_alram__text {
+  margin-left: 20px;
+}
+
+.main_alram__time {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.main_alram__subtext {
+  font-size: 18px;
+}
+
+.main_submsg {
+  font-size: 16px;
+  text-align: center;
+  color: #999;
+  font-weight: 500;
+  margin-top: 30px;
+}
